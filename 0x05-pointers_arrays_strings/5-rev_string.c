@@ -5,13 +5,10 @@
  *
  *@s: this is the pointer that point to a string
  */
-
 void rev_string(char *s)
 {
 	int a, len;
-
 	char *begin, *end = s;
-
 	for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
 	{
 		end++;
@@ -29,4 +26,3 @@ void rev_string(char *s)
 	}
 	end[len + 1] = '\0';
 }
-
